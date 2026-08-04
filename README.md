@@ -1,199 +1,209 @@
-# 🚀 RADJR 3.2 – GTX 1650 Extreme CSP Config
+<div align="center">
 
-> High-performance Custom Shaders Patch configuration for **Assetto Corsa**.
-> Optimized for **GTX 1650**, **Pure**, and **Shutoko Revival Project** while maintaining excellent visual quality.
+# 🚀 RADJR 3.2
+## CSP Performance Pack for Low-End PCs
 
-![Assetto Corsa](https://img.shields.io/badge/Assetto%20Corsa-CSP-orange)
-![GPU](https://img.shields.io/badge/GPU-GTX%201650-green)
-![FPS](https://img.shields.io/badge/Target-90--120%20FPS-blue)
-![Pure](https://img.shields.io/badge/Pure-Compatible-success)
+### ⚡ High FPS • Beautiful Graphics • Pure Compatible
+
+Optimized for **GTX 1650**, **GTX 1050 Ti**, **GTX 1060**, and similar GPUs.
+
+![GitHub stars](https://img.shields.io/github/stars/RAD4R911/CSP-GHRAPHICS-FOR-LOW-END-PC?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/RAD4R911/CSP-GHRAPHICS-FOR-LOW-END-PC?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+![Assetto Corsa](https://img.shields.io/badge/Assetto-Corsa-orange?style=for-the-badge)
+![Pure](https://img.shields.io/badge/Pure-Compatible-success?style=for-the-badge)
+
+</div>
 
 ---
 
 # 📖 About
 
-RADJR 3.2 is a performance-focused CSP configuration created for players who want the highest possible FPS without sacrificing the immersive look of Assetto Corsa.
+RADJR 3.2 is a Custom Shaders Patch performance configuration created for players with low-end and mid-range PCs who want excellent visuals without sacrificing smooth gameplay.
 
-This configuration is specifically tuned for:
+Instead of disabling everything, this project focuses on optimizing the most demanding CSP effects while preserving the atmosphere that makes Assetto Corsa look incredible.
 
-- 🎮 GTX 1650 (4 GB)
+Designed and tested primarily for:
+
+- 🎮 GTX 1650
+- 🎮 GTX 1660
+- 🎮 GTX 1050 Ti
+- 🎮 RX 580
 - 🌤 Pure Weather
 - 🛣 Shutoko Revival Project
-- 🚗 Traffic servers
-- ☀ Day & Night driving
-- 🌧 Rain support
-
-The goal is simple:
-
-> **Maximum FPS with the best possible graphics.**
+- 🌙 Day & Night Driving
+- 🌧 Rain FX
 
 ---
 
-# ⭐ Features
+# ✨ Features
 
-✅ Optimized Extra FX
-
-✅ Reduced GPU bottlenecks
-
-✅ Lower VRAM usage
-
-✅ Better frame pacing
-
-✅ Traffic optimized
-
-✅ Dream Realism compatible
-
-✅ Pure compatible
-
-✅ CSP Preview 0.3.0+
+- 🚀 Higher FPS
+- 💾 Lower VRAM usage
+- 🌅 Better lighting performance
+- 🌙 Night driving optimization
+- 🌧 Rain compatible
+- 🛣 SRP optimized
+- 🚗 Traffic server friendly
+- ⚡ Better frame pacing
+- 🎨 Pure compatible
+- 🌟 Dream Realism compatible
 
 ---
 
-# ⚡ Performance
+# 🎯 Performance
 
-Expected performance (GTX 1650):
+| GPU | Estimated FPS* |
+|------|---------------:|
+| GTX 1050 Ti | 60–90 |
+| GTX 1650 | 80–120 |
+| GTX 1660 | 100–140 |
+| RTX 2060 | 120–160 |
+| RTX 3060 | 140+ |
 
-| Scenario | FPS |
-|----------|----:|
-| Highway Cruise | 100–120 |
-| Traffic Servers | 75–100 |
-| Rain | 60–90 |
-| Night | 70–100 |
-
-*Performance depends on CPU, traffic count, map, CSP version, and graphics settings.*
+> **\*Performance varies depending on CPU, traffic, resolution, CSP version, weather, and map. These are estimates, not guarantees.**
 
 ---
 
 # 📦 Installation
 
-1. Download the latest release.
-2. Open your Assetto Corsa folder.
-3. Copy the included **extension** folder.
+1. Download the latest release from the Releases page.
+2. Extract the ZIP archive.
+3. Copy the included `extension` folder into your Assetto Corsa installation.
 4. Replace existing files if prompted.
-5. Launch the game.
+5. Launch Assetto Corsa.
+6. Enjoy smoother gameplay!
 
 ---
 
-# 🎨 Graphics Recommendation
+# 🌅 Recommended Graphics
 
-This config works with any Pure-compatible PP Filter.
+This configuration works with any Pure-compatible PP filter.
 
-For the **best visual experience**, I recommend using **Dream Realism**.
+For the visual style shown in the screenshots and videos, I recommend using **Dream Realism**.
 
-Dream Realism is a separate commercial product created by its developer and is **not included** in this repository.
+> **Dream Realism is a separate paid product and is NOT included in this repository.**
 
-If you already own it, you'll get the intended visual quality with this configuration.
-
----
-
-# 🖥 Recommended Specs
-
-Minimum
-
-• GTX 1650
-
-• Ryzen 5 3600 / Intel i5-10400
-
-• 16 GB RAM
-
-Recommended
-
-• RTX 3060+
-
-• Ryzen 7
-
-• 32 GB RAM
+If you'd like the intended visual experience, please support its creator by purchasing it from the official source.
 
 ---
 
-# 🛠 Included Optimizations
+# 🖥 Recommended Hardware
 
-- Extra FX Optimization
-- Lighting FX Optimization
-- Particle Optimization
+## Minimum
+
+- GTX 1650 / RX 580
+- Ryzen 5 2600 / Intel i5-9400F
+- 16 GB RAM
+
+## Recommended
+
+- GTX 1660 Super or better
+- Ryzen 5 5600 / Intel i5-12400F
+- 32 GB RAM
+- SSD
+
+---
+
+# 🔧 Optimizations
+
+- Extra FX
+- Lighting FX
+- Particle FX
 - Shadow Optimization
-- Mirror Optimization
 - Reflection Optimization
-- Performance Tweaks
+- Mirror Optimization
+- VRAM Optimization
+- CPU Optimization
+- GPU Optimization
 
 ---
 
 # ❌ Not Included
 
-This repository does **NOT** include:
+This repository **does not include**:
 
 - Dream Realism
 - Pure
-- CSP
+- Custom Shaders Patch
 - Shutoko Revival Project
 - Paid mods
-- Copyrighted assets
+- Cars
+- Tracks
 
-Please obtain those from their official creators if you wish to use them.
+Please download those from their official creators.
 
 ---
 
 # ❤️ Credits
 
-Assetto Corsa — Kunos Simulazioni
+**Assetto Corsa** — Kunos Simulazioni
 
-Custom Shaders Patch — Ilja Jusupov
+**Custom Shaders Patch** — Ilja Jusupov
 
-Pure — Peter Boese
+**Pure** — Peter Boese
 
-Dream Realism — Original Creator
+**Dream Realism** — Original Creator
 
-Shutoko Revival Project — SRP Team
+**Shutoko Revival Project** — SRP Team
 
-Performance Config — RADJR
+**Performance Configuration** — RADJR
+
+---
+
+# 🤝 Contributing
+
+Found a bug?
+
+Want to improve the performance?
+
+Open an Issue or submit a Pull Request.
+
+Community contributions are always welcome.
+
+---
+
+# 🛣 Roadmap
+
+- [x] Initial Release
+- [ ] Balanced Edition
+- [ ] Ultra Performance Edition
+- [ ] RTX Edition
+- [ ] AMD Edition
+- [ ] Steam Deck Edition
+- [ ] Automatic Installer
+- [ ] CSP 0.3.1 Support
 
 ---
 
 # 📜 License
 
-This repository only distributes configuration files created by RADJR.
+This repository contains configuration files created and maintained by RADJR.
 
-No copyrighted game files or paid assets are included.
+No copyrighted game files or paid content are redistributed.
 
-Please support the original creators by purchasing their work if you enjoy it.
+Please support the original creators by purchasing their work from official sources whenever applicable.
 
 ---
 
-# ⭐ Support
+<div align="center">
 
-If you enjoy this project:
+## ⭐ Like the project?
+
+If this project helped improve your experience:
 
 ⭐ Star the repository
 
-🐞 Report issues
+🍴 Fork the project
+
+🐛 Report issues
 
 💡 Suggest improvements
 
-🚀 Share your benchmarks
-
 ---
 
-# 📸 Screenshots
+### 🚗 Built for FPS. Tuned for immersion.
 
-*(Add your screenshots here)*
+**RADJR 3.2**
 
----
-
-# 📈 Roadmap
-
-- [ ] RTX Version
-- [ ] Ultra Quality Version
-- [ ] Laptop Version
-- [ ] AMD GPU Version
-- [ ] CSP 0.3.1 Support
-- [ ] Auto Installer
-
----
-
-# 🔥 RADJR 3.2
-
-> Built for FPS.
->
-> Tuned for immersion.
->
-> Made for Assetto Corsa.
+</div>
