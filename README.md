@@ -1,6 +1,6 @@
 # 🏁 RADJR CSP Performance Pack
 
-### *GTX 1650 Optimized | Dream Realism + Pure | 80–100 FPS Target*
+### *Multiple Presets | Dream Realism + Pure | GTX 1650 to RTX 4080*
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/RAD4R911/RADJR-CSP-Performance-Pack)](https://github.com/RAD4R911/RADJR-CSP-Performance-Pack/releases)
 [![GitHub all releases](https://img.shields.io/github/downloads/RAD4R911/RADJR-CSP-Performance-Pack/total)](https://github.com/RAD4R911/RADJR-CSP-Performance-Pack/releases)
@@ -10,134 +10,129 @@
 
 ## 📖 Overview
 
-This pack is specifically designed for **NVIDIA GTX 1650 (4GB)** users who want to experience **Assetto Corsa** with the stunning **"Dream Realism"** visual preset and **Pure** weather, while maintaining a **smooth 80–100 FPS**—even in heavy traffic on **Shutoko Revival Project (SRP)** with No Hesi.
+This pack contains **curated CSP and Video presets** for Assetto Corsa, optimized for **Dream Realism + Pure** visuals. Whether you're on a **GTX 1650** or an **RTX 4080**, there's a preset for you.
 
-**We don't compromise on visuals; we cut the invisible FPS killers.**
+**Current Version: v1.0.2**
+
+---
+
+## 🔥 What's Included?
+
+| File | Description |
+|------|-------------|
+| `RADJR_CSP.INI` | **High-Fidelity CSP Preset** – SSGI, 4x MSAA, 4096 shadows, max visuals |
+| `RADJR_VIDEO_v1.02.CM` | **High-Fidelity Video Preset** – Max world detail, high-res mirrors, 1080p |
 
 ---
 
 ## ⚠️ IMPORTANT: Requirements
 
-To achieve the **"Dream"** level of graphics shown in the previews, you **MUST** purchase and install the following paid mods:
+To achieve the **"Dream"** level of graphics, you **MUST** purchase and install:
 
 | Mod | Required? | Purpose |
 |-----|-----------|---------|
-| **[Pure](https://www.patreon.com/x4fab/posts)** | ✅ **Yes** | Next-gen weather, lighting, and skybox system. |
-| **[Dream Realism 7.3+](https://www.patrealistic.com/)** | ✅ **Yes** | The color grading, bloom, and atmospheric shaders that make the game look photorealistic. |
+| **[Pure](https://www.patreon.com/x4fab/posts)** | ✅ **Yes** | Next-gen weather, lighting, and skybox. |
+| **[Dream Realism 7.3+](https://www.patrealistic.com/)** | ✅ **Yes** | Color grading, bloom, atmospheric shaders. |
 
-> **Note:** This pack *optimizes* these mods for low-end hardware, but it **does not include** them. You must buy them separately to get the visual quality shown in our screenshots.
-
----
-
-## 🚀 What's Included?
-
-This repository contains **two essential presets** that work together to double your FPS:
-
-### 1. Video Settings Preset (`RADJR_GTX1650_VIDEO.ini`)
-- Drops resolution scaling from 1440p to **1080p** (gain: +15 FPS)
-- Disables heavy **MSAA** (gain: +10 FPS)
-- Reduces **Shadow Maps** from 2048 to **1024** (gain: +8 FPS)
-- Lowers **World Detail** and **Smoke** to medium-high (gain: +10 FPS)
-
-### 2. CSP Preset (`RADJR_GTX1650_OPTIMIZED.ini`)
-- Enables **AMD FSR (Ultra Quality)** at 77% render scale (gain: +20 FPS)
-- Disables **SSLR**, **HBAO**, and **SSGI** (gain: +25 FPS combined)
-- Limits dynamic headlights to **only 4 cars** (gain: +10 FPS in traffic)
-- Reduces reflection resolution and mirror quality (gain: +10 FPS)
-- Enables **Pure Adaptive FPS** targeting 120 FPS
+> **Note:** This pack *optimizes* these mods but **does not include** them. You must buy them separately.
 
 ---
 
 ## 📦 Installation Guide
 
-Follow these steps **exactly** to apply the optimization:
-
-### Step 1: Install the Video Settings Preset
+### Step 1: Import the Video Preset
 1. Open **Content Manager**.
 2. Go to **Settings** → **Assetto Corsa** → **Video**.
-3. Click the **Presets** dropdown and select **"Import"**.
-4. Select the `RADJR_GTX1650_VIDEO.ini` file from this repository.
+3. Click **Presets** → **Import**.
+4. Select `RADJR_VIDEO_v1.02.CM`.
 5. Click **Apply**.
-6. *(Optional)* If you have a 144Hz+ monitor, ensure `REFRESH` matches your monitor's refresh rate.
 
 ### Step 2: Install the CSP Preset
-1. Open **Content Manager**.
-2. Go to **Settings** → **Custom Shaders Patch** → **Presets**.
-3. Click **"Import"** and select the `RADJR_GTX1650_OPTIMIZED.ini` file.
-4. Apply the preset.
-5. **Restart Assetto Corsa** for FSR to take effect.
 
-### Step 3: In-Game Verification
-- Press `Ctrl + P` in-game to open the Pure Config app.
-- Check the **"Adaptive"** tab: Target FPS should be set to **120**.
-- If you want even more FPS, drop the FSR quality in the CSP preset from `0.77` to `0.67` (Balanced).
+**Option A – Manual Install (Recommended):**
+1. Navigate to:
+2. Place `RADJR_CSP.INI` directly into that folder.
+3. In Content Manager, go to **Settings** → **Custom Shaders Patch** → **Presets**.
+4. Select `RADJR_CSP.INI` from the list and click **Apply**.
+
+**Option B – Import via Content Manager:**
+1. Open Content Manager → **Settings** → **Custom Shaders Patch** → **Presets**.
+2. Click **Import** and select `RADJR_CSP.INI`.
+3. Apply the preset.
+
+### Step 3: Restart Assetto Corsa
+
+---
+
+## 🎮 In-Game Verification
+
+- Press `Ctrl + P` to open the **Pure Config** app.
+- Check that **Pure Color Grading** is active.
+- Your **Virtual Mirror** should work without glitches.
+- Traffic cars should have **full colors and decals**.
 
 ---
 
 ## 📊 Expected Performance
 
-Tested on **GTX 1650 4GB + i5-9300H + 16GB RAM** at **1080p**:
+| GPU | SRP + Traffic | Nürburgring (Hotlap) |
+|-----|---------------|----------------------|
+| **GTX 1650 4GB** | ~30–40 FPS | ~40–50 FPS |
+| **GTX 1660 / RTX 2060** | ~50–60 FPS | ~60–70 FPS |
+| **RTX 3060 / 3070** | ~70–80 FPS | ~80–90 FPS |
+| **RTX 3080 / 4070+** | **90–120+ FPS** | **120+ FPS** |
 
-| Scenario | Before (Default Ultra) | After (This Pack) | Gain |
-|----------|------------------------|-------------------|------|
-| Nürburgring (Hotlap) | ~45–55 FPS | **80–95 FPS** | **+35 FPS** |
-| SRP + No Hesi (Traffic) | ~30–40 FPS | **70–85 FPS** | **+40 FPS** |
-| LA Canyons (Traffic) | ~35–45 FPS | **75–90 FPS** | **+40 FPS** |
+> ⚠️ **Note:** This preset is optimized for **visual quality**, not maximum FPS. If you're on a GTX 1650 and need 60+ FPS, use the Performance preset instead.
 
 ---
 
-## 🔧 Advanced Tuning (If you need even more FPS)
+## 🔧 Advanced Tuning (If you need more FPS)
 
-If you are still struggling to hit 80+ FPS, try these extra tweaks in the **Video Preset**:
+Try these quick tweaks:
 
-- **Lower Resolution:** Change `WIDTH=1920` & `HEIGHT=1080` to `1600` & `900` → **+10 FPS**.
-- **Lower Shadow Maps:** Change `SHADOW_MAP_SIZE=1024` to `512` → **+5 FPS**.
-- **Lower World Detail:** Change `WORLD_DETAIL=2` to `1` → **+5 FPS**.
-
-Or in the **CSP Preset**:
-
-- Change `QUALITY2=0.77` to `0.59` (Performance mode) → **+10 FPS**.
+| Change | FPS Gain |
+|--------|----------|
+| `SHADOW_MAP_SIZE=4096` → `2048` | +5–8 FPS |
+| `WORLD_DETAIL=5` → `3` | +5–10 FPS |
+| `CUBEMAP SIZE=1024` → `512` | +3–5 FPS |
+| `AASAMPLES=4` → `2` | +5–8 FPS |
+| `SMOKE=5` → `3` | +3–5 FPS |
 
 ---
 
 ## 🛠️ File Structure
 
-
 ---
 
 ## 🤝 Contributing
 
-Found a bug? Have a better setting for a specific track? Open an **Issue** or submit a **Pull Request**!
-
-We welcome contributions, especially:
-- Track-specific optimizations (e.g., SRP, LA Canyons, Nordschleife).
-- Alternative presets for *Ultra Performance* (100+ FPS) or *Quality* (70 FPS locked).
+Found a bug? Have a better setting? Open an **Issue** or submit a **Pull Request**!
 
 ---
 
 ## 📜 License
 
-This project is licensed under the **MIT License** – feel free to use, modify, and share it.  
-Just remember: **Pure and Dream Realism are paid mods**—support the original creators!
+MIT License – free to use, modify, and share.  
+**Pure and Dream Realism are paid mods** – support the original creators!
 
 ---
 
 ## 🙏 Credits
 
-- **x4fab** – For the incredible Custom Shaders Patch and Pure.
-- **Dream Team** – For the jaw-dropping Dream Realism visuals.
-- **RAD4R911** – For testing and curating the perfect GTX 1650 balance.
-- **The SRP Community** – For keeping the highways alive.
+- **x4fab** – Custom Shaders Patch & Pure
+- **Dream Team** – Dream Realism visuals
+- **SRP Community** – Shutoko Revival Project
+- **RAD4R911** – Testing, tuning, and curating
 
 ---
 
 ## ⭐ Support the Project
 
-If this pack helped you enjoy Assetto Corsa at high FPS, please:
+If this pack helped you:
 - ⭐ **Star this repository** on GitHub.
-- 📢 Share it with your GTX 1650 friends.
-- 💰 **Buy Pure and Dream Realism** – it’s worth every penny!
+- 📢 Share it with your sim racing friends.
+- 💰 **Buy Pure and Dream Realism** – it's worth every penny!
 
 ---
 
-*Built with ❤️ for the low-end sim racing community.*
+*Built with ❤️ for the sim racing community.*
