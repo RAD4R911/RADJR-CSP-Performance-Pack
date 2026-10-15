@@ -10,7 +10,7 @@
 
 The **RADJR CSP Performance Pack** is a curated collection of Custom Shaders Patch and Assetto Corsa Content Manager settings for sim-racing setups that want a strong visual presentation without unnecessarily aggressive GPU settings.
 
-The current package is **v1.0.3**. It is intended for Assetto Corsa users running Content Manager and CSP, with settings suitable as a starting point for 1080p high-refresh-rate displays.
+The current package is **v1.0.3**. It is intended for Assetto Corsa users running Content Manager and CSP, with settings suitable as a starting point for 1080p high-refresh-rate displays. The hardware tiers below define the target range for this pack.
 
 > The presets are starting points, not universal benchmarks. Actual FPS depends on the car, track, traffic, weather, CSP version, Pure configuration, resolution, CPU, GPU, and VR or monitor mode.
 
@@ -33,7 +33,17 @@ The current package is **v1.0.3**. It is intended for Assetto Corsa users runnin
 - Post-processing enabled with configurable glare, heat shimmer, and god rays
 - 144 FPS display refresh target with VSync disabled
 
-## Requirements
+## Hardware requirements
+
+| Tier | Target GPU | Intended use |
+| --- | --- | --- |
+| **Minimum** | **GTX 1650 Laptop 4 GB** | Entry-level 1080p use with reduced traffic, mirrors, shadows, or post-processing when needed. |
+| **Mid-range** | **GTX 1660 Super 6 GB** | Balanced 1080p gameplay with the included preset and moderate traffic. |
+| **High requirement** | **RTX 3060 12 GB or equivalent** | Higher visual settings, heavier traffic, and more consistent high-refresh-rate performance. |
+
+The GTX 1650 Laptop is the minimum target for this pack. The GTX 1660 Super is the recommended mid-range target, while the RTX 3060 represents the high-end target for the included settings. Actual performance varies with the CPU, laptop power limit, thermals, resolution, track, car, traffic, weather, CSP version, Pure configuration, and VR or monitor mode.
+
+### Software requirements
 
 - Assetto Corsa
 - Content Manager
